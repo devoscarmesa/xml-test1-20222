@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE pedido SYSTEM "reglaspedido.dtd">
+
+<pedido fecha="2022-10-30" referencia="A-19">
+    <producto codigo="G25">
+        <nombre idioma="ES">Teclado</nombre>
+        <cantidad>12</cantidad>
+        <comentario>
+            Teclados marcha <marca>LENOVO</marca>
+        </comentario>
+    </producto>
+    <producto codigo="T15">
+        <nombre>Monitor</nombre>
+        <cantidad>20</cantidad>
+        <comentario>
+            <![CDATA[
+               if (x &lt; 3)
+            ]]>
+            Monitores de 12''
+        </comentario>
+    </producto>
+</pedido>

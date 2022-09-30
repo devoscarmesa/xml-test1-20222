@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ciudadesDelMundo>
+    <ciudad>
+        <nombre></nombre>
+        <pais continente=""></pais>
+    </ciudad>
+    <ciudad>
+        <nombre></nombre>
+        <pais continente=""></pais>
+    </ciudad>
+    <ciudad>
+        <nombre></nombre>
+        <pais continente=""></pais>
+    </ciudad>
+</ciudadesDelMundo>
