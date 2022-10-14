@@ -7,10 +7,10 @@
     </ciudad>
     <ciudad>
         <nombre></nombre>
-        <pais></pais>
+        <pais continente=""></pais>
     </ciudad>
     <ciudad>
-        <nombre></nombre>
+        <nombre>Medellín</nombre>
         <pais continente=""></pais>
     </ciudad>
 </ciudadesDelMundo>
