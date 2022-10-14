@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<!DOCTYPE ciudadesDelMundo SYSTEM "CiudadesDelMundo.dtd" >
 <ciudadesDelMundo>
     <ciudad>
-        <nombre></nombre>
-        <pais continente=""></pais>
+        <nombre>Nueva Delhi</nombre>
+        <pais continente="Ásia">India</pais>
     </ciudad>
     <ciudad>
         <nombre></nombre>
-        <pais continente=""></pais>
+        <pais></pais>
     </ciudad>
     <ciudad>
         <nombre></nombre>
