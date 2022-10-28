@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE ciudadesDelMundo SYSTEM "CiudadesDelMundo.dtd" >
-<ciudadesDelMundo>
-    <ciudad>
-        <nombre>Nueva Delhi</nombre>
-        <pais continente="Ásia">India</pais>
+<ciudadesDelMundo idioma="ES">
+    <ciudad codigo="ND">
+        <nombre>Nueva Delhi <corto>asdfasdf</corto> </nombre>
+        <pais continente="ASIA">India</pais>
     </ciudad>
-    <ciudad>
-        <nombre></nombre>
-        <pais continente=""></pais>
+    <ciudad codigo="NA" codigoPostal="MED">
+        <nombre/>
+        <pais continente="AMERICA"></pais>
     </ciudad>
-    <ciudad>
+    <ciudad codigo="MED">
         <nombre>Medellín</nombre>
-        <pais continente=""></pais>
+       <pais continente="AMERICA" area="90000"></pais>
     </ciudad>
+    <codigoPostal1 codpostal="Q10A"></codigoPostal1>
 </ciudadesDelMundo>

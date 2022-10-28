@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="XSD/marcadores.xsd">
+    <pagina autor="OSCAR">
+        <nombre edad="30">Abrirllave</nombre>
+        <descripcion>Tutoriales de informática.</descripcion>
+        <url>http://www.poli.edu.co</url>
+        <protocolo>https</protocolo>
+    </pagina>
+    <pagina autor="OSCAR">
+        <nombre edad="30">Wikipedia</nombre>
+        <descripcion>La enciclopedia libre.</descripcion>
+        <url>http://www.wikipedia.org/</url>
+    </pagina>
+    <pagina autor="OSCAR">
+        <nombre edad="30">W3C</nombre>
+        <descripcion>World Wide Web Consortium.</descripcion>
+        <url>http://www.w3.org/</url>
+    </pagina>
+    <paginas>
+        <pagina autor="OSCAR">
+            <nombre edad="10">Abrirllave</nombre>
+            <descripcion>Tutoriales de informática.</descripcion>
+            <url>http://www.polijic.edu.co</url>
+        </pagina>
+    </paginas>
+
+</marcadores>

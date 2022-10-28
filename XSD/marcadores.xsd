@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    <xs:element name="marcadores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pagina" type="infoPagina" maxOccurs="unbounded"/>
+                <xs:element name="paginas" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="pagina" type="infoPagina" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:complexType name="infoPagina">
+        <xs:sequence>
+            <xs:element name="nombre" maxOccurs="1">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="edad" type="xs:string" use="required"></xs:attribute>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="descripcion" type="xs:string" maxOccurs="1"/>
+            <xs:element name="url" maxOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[hH][tT]{2}[pP]://[wW]{3}.*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="protocolo" minOccurs="0" maxOccurs="1">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="http"/>
+                        <xs:enumeration value="https"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="autor" type="xs:string" fixed="OSCAR"></xs:attribute>
+    </xs:complexType>
+    
+    
+</xs:schema>

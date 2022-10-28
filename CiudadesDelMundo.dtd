@@ -1,4 +1,12 @@
-<!ELEMENT ciudadesDelMundo (ciudad)>
-<!ELEMENT ciudad (nombre, pais)>
-<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ciudadesDelMundo (ciudad+,codigoPostal1+)>
+<!ELEMENT ciudad ((nombre?, pais+) | (nombre?))>
+<!ELEMENT codigoPostal1 (#PCDATA)>
+<!ELEMENT nombre ANY>
+<!ELEMENT corto (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
+<!ATTLIST codigoPostal1 codpostal ID #REQUIRED>
+<!ATTLIST ciudadesDelMundo idioma CDATA #FIXED "ES">
+<!ATTLIST ciudad codigo ID #REQUIRED
+                  codigoPostal IDREF #IMPLIED>
+<!ATTLIST pais continente (ASIA|AMERICA) #REQUIRED
+                area CDATA #IMPLIED>
